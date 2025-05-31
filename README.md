@@ -54,6 +54,7 @@ python manage.py runserver
 ### Visit http://127.0.0.1:8000/blogs/ in your browser to see the app.
 
 ## Project Structure
+```bash
 blog_app/
 │
 ├── blog_app/                 # App containing blog logic
@@ -72,3 +73,4 @@ blog_app/
 ├── manage.py
 ├── requirements.txt
 └── README.md
+```
