@@ -20,3 +20,9 @@ A full-featured blogging platform built with the **Django framework**. This app 
 ```bash
 git clone https://github.com/Tejas320/Blogs_App_Django.git
 cd blog_app
+
+### 2. Set up a virtual environment
+
+```bash
+git clone https://github.com/Tejas320/Blogs_App_Django.git
+cd blog_app
