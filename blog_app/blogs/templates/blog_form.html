@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Blogs App
+{% endblock %}
+
+{% block content %}
+<h1 class="text-center mt-4">Welcome to your Blogs App</h1>
+<h2>
+    {% if form.instance.pk %}
+    Edit Blog
+    {% else %}
+    Create Blog
+    {% endif %}
+    <form method="post" enctype="multipart/form-data" class="form">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button class="btn btn-warning" type="submit">Submit</button>
+    </form>
+    <a href="{% url 'blog_list' %}">Back to Blogs list</a>
+</h2>
+{% endblock %}
