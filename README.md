@@ -5,6 +5,12 @@
 
 A full-featured blogging platform built with the **Django framework**. This app allows users to create, update, delete, and read blog posts. It supports user authentication, rich text formatting, and more — making it a great starting point for a personal blog, portfolio, or content-driven website.
 
+## Table of Contents
+1. [Features](#features)
+2. [Installation](#installation)
+3. [Project Structure](#project-structure)
+4. [Snapshots](#snapshots)
+
 ## Features
 
 - User authentication (Sign up, Login, Logout)
@@ -82,3 +88,5 @@ blog_app/
 ├── manage.py
 ├── requirements.txt
 ```
+
+## Snapshots
