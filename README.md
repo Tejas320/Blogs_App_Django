@@ -72,14 +72,13 @@ blog_app/
     ├── apps.py
     ├── forms.py
     ├── models.py
-    ├── forms.py
-│   └── models.py
-├── users/                # App for user authentication
+    ├── tests.py
+    ├── urls.py
+│   └── views.py
 │
 ├── static/               # Static files (CSS, JS)
 ├── media/                # Uploaded images, media files
 ├── templates/            # Base templates
 ├── manage.py
 ├── requirements.txt
-└── README.md
 ```
