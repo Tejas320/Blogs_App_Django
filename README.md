@@ -20,9 +20,35 @@ A full-featured blogging platform built with the **Django framework**. This app 
 ```bash
 git clone https://github.com/Tejas320/Blogs_App_Django.git
 cd blog_app
-
+```
 ### 2. Set up a virtual environment
 
 ```bash
-git clone https://github.com/Tejas320/Blogs_App_Django.git
-cd blog_app
+python -m venv env
+source env/bin/activate  # On Windows: env\Scripts\activate
+```
+
+### 3. Install requirements
+
+```bash
+pip install -r requirements.txt
+```
+### 4. Apply migrations
+
+```bash
+python manage.py migrate
+```
+
+### 5. Create superuser
+
+```bash
+python manage.py createsuperuser
+```
+
+### 6. Run the development server
+
+```bash
+python manage.py runserver
+```
+
+## Visit http://127.0.0.1:8000/blogs/ in your browser to see the app.
