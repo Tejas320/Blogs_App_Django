@@ -51,4 +51,24 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-## Visit http://127.0.0.1:8000/blogs/ in your browser to see the app.
+### Visit http://127.0.0.1:8000/blogs/ in your browser to see the app.
+
+## Project Structure
+blog_app/
+│
+├── blog_app/                 # App containing blog logic
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+    ├── urls.py
+    ├── wsgi.py
+│   └── __pycache__/
+│
+├── users/                # App for user authentication
+│
+├── static/               # Static files (CSS, JS)
+├── media/                # Uploaded images, media files
+├── templates/            # Base templates
+├── manage.py
+├── requirements.txt
+└── README.md
