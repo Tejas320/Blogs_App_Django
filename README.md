@@ -65,6 +65,15 @@ blog_app/
     ├── wsgi.py
 │   └── __pycache__/
 │
+├── blogs/                
+│   ├── templates/
+│   ├── __init__.py
+│   ├── admin.py
+    ├── apps.py
+    ├── forms.py
+    ├── models.py
+    ├── forms.py
+│   └── models.py
 ├── users/                # App for user authentication
 │
 ├── static/               # Static files (CSS, JS)
