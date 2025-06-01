@@ -18,6 +18,7 @@ A full-featured blogging platform built with the **Django framework**. This app 
 - Responsive front-end using Bootstrap
 - Admin dashboard to manage content
 - SEO-friendly URLs and meta tags
+- Search functionality
 
 ## Installation
 
@@ -108,4 +109,7 @@ blog_app/
 
 ![image](https://github.com/user-attachments/assets/0d268f4f-2158-40d2-946b-149be441a065)
 #### Deleting the blog created by user.
+
+![image](https://github.com/user-attachments/assets/d1f9a4a3-2b4e-4656-b6f4-9bbac207621a)
+#### Search functionality
 
