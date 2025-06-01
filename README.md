@@ -1,4 +1,4 @@
-# Blog App using Django Framework
+# Blogs App using Django Framework
 
 ## Tools Used:
 ### Python, Django, HTML, CSS, Bootstrap
