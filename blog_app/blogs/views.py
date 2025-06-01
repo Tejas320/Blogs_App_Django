@@ -60,3 +60,11 @@ def register(request):
     else:
         form = UserRegistrationForm()
     return render(request, 'registration/register.html', {'form':form})
+
+def blog_list(request):
+    query = request.GET.get("q")
+    if query:
+        blogs = Blog.objects.filter(text__icontains=query)
+    else:
+        blogs = Blog.objects.all()
+    return render(request, 'blog_list.html', {'blogs': blogs, 'query': query})
