@@ -90,3 +90,12 @@ blog_app/
 ```
 
 ## Snapshots
+
+![image](https://github.com/user-attachments/assets/96ea1ece-9ba4-49dd-9cb8-ee2aadf2b560)
+### UI of Blogs App where all the blogs written by different users are seen.
+
+![image](https://github.com/user-attachments/assets/ac4df3e1-3f35-4c93-9e90-40d238c97af8)
+### Registration form to register new users, using the power of Django forms.
+
+![image](https://github.com/user-attachments/assets/ffc8aa9f-134f-43ea-806c-eb4b30824690)
+### Login form for returning users, as well as link for registering user.
